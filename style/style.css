@@ -1,0 +1,109 @@
+@import url(./font.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1240px;
+    width: 100%;
+    margin: auto;
+}
+.hero{
+    margin-top: 109px;
+}
+.hero_container{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.hero-info h1{
+    font-size:52px;
+    font-family:'Exo 2';
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #363738;
+}
+.hero-info p{
+    font-size:16px;
+    font-family:'PT Sans';
+    font-weight: 400;
+    line-height:24px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #6b6b6b; 
+}
+.hero-info a{
+    font-size:16px;
+    font-family:'Exo 2';
+    font-weight: 700;
+    line-height:24px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #363738; 
+    border-bottom: 2px solid #FFCE50;
+    text-decoration: none;
+}
+@media screen and (max-width:1240px) {
+    .container{
+        padding: 0 30px;
+    }
+    .hero-img img{
+        max-width: 500px;
+    }
+    .hero-info h1{
+        font-size: 40px;
+        line-height:40px;
+        margin-bottom:25px;
+    }
+    .hero-info p{
+        margin-bottom: 25px;
+    }
+    .hero_container{
+        gap: 40px;
+    }
+}
+@media screen and (max-width:992px){
+    .hero-img img{
+        max-width: 400px;
+    }
+    .hero-info h1{
+        font-size: 30px;
+        line-height:30px;
+        margin-bottom:20px;
+    }
+    .hero-info p{
+        margin-bottom: 25px;
+    }
+    .hero_container{
+        gap: 40px;
+    }
+}
+@media screen and (max-width:768px){
+    .hero_container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-img img{
+        max-width: 100%;
+    }
+    .hero-info h1{
+        text-align: center;
+    }
+    .hero-info p{
+        text-align: center;
+    }
+}
+@media screen and (max-width:576px){ 
+    .hero-info h1{
+        text-align: left;
+    }
+    .hero-info p{
+        text-align: left;
+    }
+    .hero_container{
+        text-align: left;
+    }
+}
