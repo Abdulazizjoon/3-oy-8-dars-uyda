@@ -128,7 +128,7 @@
     margin-bottom:5px;
 }
 .paragref p{
-    width: 291px;
+    max-width: 291px;
     height: 41px;
     font-family: 'PT Sans';
     font-size: 16px;
@@ -177,8 +177,11 @@
         padding-right:44px;
     }
     /* main */
-    .main{
-        
+    .flex_ikki, .flex_tort{
+        margin-left:66px;
+    }
+    .flex_ikki, .flex_tort,.flex_uch,.flex_bir{
+       margin-left: 3f0%; 
     }
 }
 @media screen and (max-width:992px){
