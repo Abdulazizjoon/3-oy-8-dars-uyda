@@ -111,6 +111,38 @@
     padding: 0 20px;
 }
 /* main */
+.flex{
+    margin-left: 66px;
+    display: flex;
+    align-items: center;  
+    margin-bottom: 64px;
+}
+.paragref{
+    margin-left: 40px;
+}
+.paragref h3{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom:5px;
+}
+.paragref p{
+    width: 291px;
+    height: 41px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+}
+.main_button{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex_ikki, .flex_tort{
+    margin-left: 176px;
+}
 
 @media screen and (max-width:1240px) {
     .container{
