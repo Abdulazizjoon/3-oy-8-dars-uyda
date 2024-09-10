@@ -85,6 +85,31 @@
     font-family:'PT Sans';
     color: #6b6b6c;
 }
+/* trapitsya */
+.trapitsya{
+    max-width: 770px;
+    height: 455px;
+    background-color: #0b7572;
+    clip-path: polygon(0 0, 41% 0, 100% 100%, 0% 100%);
+    padding-top: 178px;
+    padding-left:90px;
+    margin-bottom: 72.5px;
+}
+.trapitsya h2{
+    max-width: 362px;
+    height: 109px;
+    font-family: 'Exo 2';
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.main_container{
+    background-image: url(../img/Rectangle\ 7.png);
+}
+.main{
+    padding: 0 20px;
+}
 @media screen and (max-width:1240px) {
     .container{
         padding: 0 30px;
@@ -110,6 +135,17 @@
     .category_container{
         padding: 30px;
     }
+    .category-blokc .info h3{
+        font-size: 18px;
+    }
+    .category-blokc{
+        padding-left: 44px;
+        padding-right:44px;
+    }
+    /* main */
+    .main{
+        
+    }
 }
 @media screen and (max-width:992px){
     .hero-img img{
@@ -126,6 +162,27 @@
     .hero_container{
         gap: 40px;
     }
+    /* category */
+    .category{
+        padding: 0px 35px;
+    }
+    .category_container{
+        padding: 30px;
+    }
+    .category-blokc{
+        padding-left:24px;
+        padding-right:24px;
+    }
+    .category-blokc .info h3{
+        font-size: 14px;
+    }
+    .category-blokc .icon img{
+        width: 70px;
+    }
+    .category-blokc .info p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (max-width:768px){
     .hero_container{
@@ -141,6 +198,25 @@
     .hero-info p{
         text-align: center;
     }
+      /* category */
+      .category_container{
+        box-shadow: none;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .category-blokc{
+        border-radius: 20px;
+        border:none;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        padding-top:32px;
+        gap:25px;
+        box-shadow: 1px 3px 8px 0px #d7d7dd;
+    }
+    .category-blokc .icon img{
+        margin-left:22px;
+    }
 }
 @media screen and (max-width:576px){ 
     .hero-info h1{
@@ -151,8 +227,29 @@
     }
     .hero_container{
         text-align: left;
+        gap: 40px;
     }
     .hero-img img{
         width: 500px;
+    }
+    /* main */
+    .main_container{
+        background-image: none;
+    }
+    .trapitsya h2{
+        color: #363738;
+        margin-left: -100px;
+        font-size: 28px;
+        margin-top: -100px;
+        width: 345px;
+        height: 64px;
+
+    }
+    .category_container{
+        margin-bottom: 0px;
+    }
+    .trapitsya{
+        clip-path: none;
+        background-color: #fff;
     }
 }
